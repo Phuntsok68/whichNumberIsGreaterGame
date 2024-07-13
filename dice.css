@@ -1,0 +1,70 @@
+.container{
+    border: 1px solid white;
+    height: 500px;
+    margin: 50px;
+   
+
+}
+
+.heading h1{
+
+    font-size: 70px;
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+body{
+    background-color: #495057;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+.dice{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 30px;
+    color: #fb8500;
+    font-weight: 400;
+    letter-spacing: .8px;
+   
+    
+   
+}
+.one{
+    padding-right: 50px ;
+}
+.numberOne{
+    text-align: center;
+    color: #ffb703;
+    border: 1px solid #ffb703;
+    padding: 5px;
+}
+
+.numberTwo{
+    text-align: center;
+    color: #ffb703;
+    border:1px solid #ffb703;
+    padding: 5px
+}
+
+footer{
+    text-align: center;
+    font-weight: 300;
+    padding-top: 80px;
+    color: white;
+}
+
+@media(max-width:597px){
+    footer{
+        padding-top: 40px;
+       
+    }
+    .container{
+        height: 540px;
+        margin-top: 60px;
+    }
+}
